@@ -1,6 +1,6 @@
 import React from "react"
 import {  treading } from "../assets/data/data"
-import { Card_lg } from "../common/Card_lg"
+import { Cardlg } from "../common/Cardlg"
 import { Title } from "../common/Title"
 import Slider from "react-slick"
 
@@ -35,7 +35,7 @@ export const Treading = () => {
         {treading.map((item, i) => (
           <div className='box card hero m-5' key={i}>
             <div className='mr-5'>
-              <Card_lg cover={item.cover} name={item.name} tag={item.tag} />
+              <Cardlg cover={item.cover} name={item.name} tag={item.tag}> </Cardlg>
             </div>
           </div>
         ))}

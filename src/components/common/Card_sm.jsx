@@ -2,7 +2,7 @@ import React from "react"
 import { AiFillPlayCircle, AiOutlineHeart } from "react-icons/ai"
 import { BsPlayCircle, BsThreeDots } from "react-icons/bs"
 
-export const Card_sm = ({ cover, name, tag, i, show }) => {
+export const Cardsm = ({ cover, name, tag, i, show }) => {
   return (
     <>
       <div className='box card relative flex hover:bg-gray-100 p-2 rounded-md transition ease-in-out cursor-pointer' key={i}>

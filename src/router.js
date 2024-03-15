@@ -1,4 +1,4 @@
-export { Header } from "./components/header/Header"
+export { Header } from "./components/header/Header";
 export { Layout } from "./components/layout/Layout"
 export { Hero } from "./components/hero/Hero"
 export { Treading } from "./components/hero/Treading"

@@ -1,6 +1,6 @@
 import React from "react"
 import { browse } from "../assets/data/data"
-import { Card_sm } from "../common/Card_sm"
+import { Cardsm } from "../common/Card_sm"
 
 export const Chart = () => {
   return (
@@ -10,7 +10,7 @@ export const Chart = () => {
         <div className='grid grid-cols-1 gap-5'>
           {browse.map((item, i) => (
             <div className='box card hero' key={i}>
-              <Card_sm cover={item.cover} name={item.name} tag={item.tag} i={i} show={true} />
+              <Cardsm cover={item.cover} name={item.name} tag={item.tag} i={i} show={true} />
             </div>
           ))}
         </div>
